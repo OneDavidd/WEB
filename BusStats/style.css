@@ -1,0 +1,154 @@
+body {
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   padding: 0;
+   margin: 0;
+   height: 100vh;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   box-sizing: border-box;
+}
+
+footer {
+   background-color: black;
+   padding: 5px;
+   text-align: center;
+   position: fixed;
+   bottom: 0; 
+   width: 100%;
+}
+
+.titulo-busstats {
+   position: absolute;
+   top: 4px;
+   right: 28px;
+   text-align: right;
+}
+
+.titulo-busstats h1 {
+   font-weight: bold;
+}
+
+.titulo-busstats p{
+   margin-top: 5px;
+}
+
+.aba-lateral {
+   width: 12%;
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   padding-top: 10px; 
+}
+
+.logo-topo {
+   padding: 15px;
+   text-align: center;
+   border-bottom: 1px solid white;
+}
+
+.texto-final-aba {
+   padding: 26px;
+   text-align: center;
+}
+
+.menu-item {
+   padding: 12px 15px;
+   display: flex;
+   align-items: center;
+   transition: background-color 0.3s;
+   text-decoration: none;
+   color: white;
+}
+
+.menu-item:hover {
+   background-color: #555;
+}
+
+.menu-item img {
+   margin-right: 10px;
+}
+
+.image-gallery {
+   display: flex;
+   justify-content: center; /* Centraliza as imagens horizontalmente */
+   align-items: center; /* Centraliza as imagens verticalmente */
+   height: 100vh; /* Preenche a altura total da página */
+   gap: 45px; /* Espaçamento entre as imagens */
+   margin: auto; /* Centraliza a galeria de imagens */
+}
+
+.image-link {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-decoration: none; /* Remove o sublinhado dos links */
+   margin: auto; /* Centraliza cada imagem individualmente */
+}
+
+.image-item {
+   width: 150px; /* Largura inicial das imagens */
+   transition: transform 0.3s; /* Efeito suave ao passar o cursor */
+}
+
+.image-link:hover .image-item {
+   transform: scale(1.2); /* Aumenta um pouco o tamanho da imagem ao passar o cursor */
+}
+
+.image-link p {
+   margin-top: 7px; /* Espaçamento entre a imagem e o texto */
+   color: white; /* Cor do texto */
+}
+
+.image-section {
+   width: 90%; /* Ajuste a largura conforme necessário */
+   margin: auto; /* Centraliza a seção na página */
+   padding: 20px 0; /* Espaço em cima e embaixo */
+}
+
+/* Estilo para as fileiras de imagens */
+.row {
+   display: flex;
+   justify-content: space-between; /* Espaçamento igual entre as imagens */
+   margin-bottom: 20px; /* Espaçamento entre as fileiras */
+}
+
+/* Estilo para cada container de imagem */
+.image-container {
+   flex: 1; /* Assegura que cada container ocupe o mesmo espaço */
+   text-align: center; /* Centraliza o conteúdo dentro do container */
+   padding: 10px; /* Espaço em torno do conteúdo */
+}
+
+.image-container img {
+   width: 100px; /* Ajuste a largura das imagens conforme necessário */
+   height: auto; /* Mantém a proporção das imagens */
+   margin-bottom: 10px; /* Espaçamento entre a imagem e o título */
+}
+
+.image-container a {
+   text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo para o título e link clicável */
+.image-container a strong {
+   display: block; /* Permite alinhar o título abaixo da imagem */
+   color: white; /* Cor do título */
+   text-decoration: none; /* Remove o sublinhado */
+   cursor: pointer; /* Indica que o título é clicável */
+}
+
+/* Estilo para o título quando o cursor passa sobre ele */
+.image-container a:hover strong {
+   color: red; /* Cor desejada para o título quando o cursor passa sobre ele (por exemplo, dourado) */
+}
+
+/* Estilo para o texto descritivo */
+.image-container p {
+   margin-top: 5px; /* Espaço entre o título e o texto descritivo */
+   color: white; /* Cor do texto descritivo */
+}
