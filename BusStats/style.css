@@ -1,0 +1,196 @@
+body {
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   padding: 0;
+   margin: 0;
+   height: 100vh;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+footer {
+   background-color: black;
+   padding: 5px;
+   text-align: center;
+   position: fixed;
+   bottom: 0; 
+   width: 100%;
+}
+
+.titulo-busstats {
+   position: absolute;
+   top: 4px;
+   right: 28px;
+   text-align: right;
+}
+
+.titulo-busstats h1 {
+   font-weight: bold;
+}
+
+.titulo-busstats p{
+   margin-top: 5px;
+}
+
+.aba-lateral {
+   width: 12%;
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   padding-top: 10px; 
+}
+
+.logo-topo {
+   padding: 15px;
+   text-align: center;
+   border-bottom: 1px solid white;
+}
+
+.texto-final-aba {
+   padding: 26px;
+   text-align: center;
+}
+
+.menu-item {
+   padding: 12px 15px;
+   display: flex;
+   align-items: center;
+   transition: background-color 0.3s;
+   text-decoration: none;
+   color: white;
+}
+
+.menu-item:hover {
+   background-color: #555;
+}
+
+.menu-item img {
+   margin-right: 10px;
+}
+
+.image-gallery {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   height: 100vh; 
+   gap: 45px; 
+   margin: auto; 
+}
+
+.image-link {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-decoration: none; 
+   margin: auto; 
+}
+
+.image-item {
+   width: 150px; 
+   transition: transform 0.3s; 
+}
+
+.image-link:hover .image-item {
+   transform: scale(1.2); 
+}
+
+.image-link p {
+   margin-top: 7px; 
+   color: white;
+}
+
+.image-section {
+   width: 90%;
+   margin: auto;
+   padding: 20px 0; 
+}
+
+.row {
+   display: flex;
+   justify-content: space-between; 
+   margin-bottom: 20px; 
+}
+
+.image-container {
+   flex: 1; 
+   text-align: center; 
+   padding: 10px; 
+}
+
+.image-container img {
+   width: 100px; 
+   height: auto;
+   margin-bottom: 10px; 
+}
+
+.image-container a {
+   text-decoration: none;
+}
+
+.image-container a strong {
+   display: block; 
+   color: white; 
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.image-container a:hover strong {
+   color: red;
+}
+
+.image-container p {
+   margin-top: 5px;
+   color: white;
+}
+
+.image-tela {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   height: calc(100vh - 40px);
+}
+
+.item-it {
+   position: relative;
+}
+
+.item-it img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: opacity 0.3s;
+}
+
+.over-it {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   opacity: 0;
+   color: white;
+   text-align: center;
+   transition: opacity 0.3s;
+}
+
+.item-it:hover .over-it {
+   opacity: 1;
+}
+
+.item-it:hover img {
+   opacity: 0.5;
+}
+
+.item-it:hover:hover img{
+   opacity: 1;
+}
