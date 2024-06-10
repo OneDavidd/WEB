@@ -40,3 +40,45 @@ body{
    color: white;
    margin-top: 5px;
 }
+
+.email {
+   color: white;
+   text-align: left;
+}
+
+.email h1 {
+   font-weight: bold;
+}
+
+.email p{
+   color: white;
+   margin-top: 5px;
+}
+
+.telefone {
+   color: white;
+   text-align: left;
+}
+
+.telefone h1 {
+   font-weight: bold;
+}
+
+.telefone p{
+   color: white;
+   margin-top: 5px;
+}
+
+.endereco {
+   color: white;
+   text-align: left;
+}
+
+.endereco h1 {
+   font-weight: bold;
+}
+
+.endereco p{
+   color: white;
+   margin-top: 5px;
+}
