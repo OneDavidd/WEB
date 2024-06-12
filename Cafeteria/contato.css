@@ -9,7 +9,17 @@
 body{
    margin: 0;
    background-color: rgb(130, 72, 22);
+   background-position: center;
+   background-size: cover;
    font-family: Kanit;
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   background-color: #f8f9fa;
+   color: black;
 }
 
 .icone{
@@ -18,8 +28,7 @@ body{
 
 .content{
    display: flex;
-   height: 93.5vh;
-   width: 100vw;
+   height: 90.5vh;
    justify-content: center;
 }
 
@@ -27,58 +36,14 @@ body{
    width: 60vw;
 }
 
-.contato {
+.titulo-contato {
    color: white;
+   margin-top: 16px;
    text-align: left;
-}
-
-.contato h1 {
    font-weight: bold;
 }
 
-.contato p{
-   color: white;
-   margin-top: 5px;
-}
-
-.email {
-   color: white;
-   text-align: left;
-}
-
-.email h1 {
-   font-weight: bold;
-}
-
-.email p{
-   color: white;
-   margin-top: 5px;
-}
-
-.telefone {
-   color: white;
-   text-align: left;
-}
-
-.telefone h1 {
-   font-weight: bold;
-}
-
-.telefone p{
-   color: white;
-   margin-top: 5px;
-}
-
-.endereco {
-   color: white;
-   text-align: left;
-}
-
-.endereco h1 {
-   font-weight: bold;
-}
-
-.endereco p{
+.info-contato {
    color: white;
    margin-top: 5px;
 }
